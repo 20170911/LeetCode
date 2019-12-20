@@ -18,7 +18,7 @@ public class Main {
         int j = 1;
         while (j < nums.length) {
             if (nums[i] != nums[j]) {
-                if (j - i > 0) {
+                if (j - i > 1) {
                     nums[i + 1] = nums[j];
                 }
                 i++;
